@@ -69,8 +69,8 @@ FastAPI provides interactive API documentation at:
 ## Features
 
 - 4 ML models (Logistic Regression, Naive Bayes, Random Forest, SVM)
-- Real-time spam detection
+- Spam detection
 - Batch processing support
-- Comprehensive error handling
+- Error handling
 - Input validation with Pydantic
 - Response time monitoring
