@@ -5,7 +5,7 @@ A FastAPI application for spam detection using machine learning models from Assi
 ## Project Structure
 
 ```
-backend_spam_detector/
+back-end/
 ├── app/
 │   ├── api/
 │   │   ├── endpoints/
