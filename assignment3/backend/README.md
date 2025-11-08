@@ -19,6 +19,7 @@ backend_spam_detector/
 │   └── data/
 │       └── spam_data_cleaned.csv    
 ├── main.py                          
+├── README.md
 └── requirements.txt                 
 ```
 
