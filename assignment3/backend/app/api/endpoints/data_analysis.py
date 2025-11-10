@@ -76,8 +76,8 @@ async def get_data_samples(
     """
     Get sample messages from the dataset.
     
-    - **label**: Optional filter ('spam' or 'ham')
-    - **limit**: Number of samples (1-100)
+    - label: Optional filter ('spam' or 'ham')
+    - limit: Number of samples (1-100)
     
     Returns random sample messages with their labels.
     """
@@ -134,9 +134,9 @@ async def search_messages(
     """
     Search for messages containing specific text.
     
-    - **query**: Text to search for (case-insensitive)
-    - **label**: Optional filter ('spam' or 'ham')
-    - **limit**: Maximum results (1-100)
+    - query: Text to search for (case-insensitive)
+    - label: Optional filter ('spam' or 'ham')
+    - limit: Maximum results (1-100)
     
     Returns messages matching the search query.
     """
@@ -249,7 +249,7 @@ async def get_random_message(label: Optional[str] = Query(None, description="Fil
     """
     Get a single random message from the dataset.
     
-    - **label**: Optional filter ('spam' or 'ham')
+    - label: Optional filter ('spam' or 'ham')
     
     Useful for quick testing of the prediction endpoints.
     """
@@ -304,7 +304,7 @@ async def export_sample_data(
     """
     Export a sample of the dataset for analysis.
     
-    - **count**: Number of samples (10-1000)
+    - count: Number of samples (10-1000)
     
     Returns balanced sample of spam and ham messages.
     """
